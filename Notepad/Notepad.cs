@@ -19,7 +19,7 @@ namespace Notepad
         List<Note> notes = new List<Note>();
 
         string notesFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "NotepadApp", "notes.json");
-
+         
         public Notepad()
         {
             InitializeComponent();
